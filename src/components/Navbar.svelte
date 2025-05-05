@@ -48,7 +48,7 @@
     <div class="hidden md:flex space-x-8 text-lg font-semibold">
       <a on:click={() => navigateTo('/')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">Home</a>
       <a on:click={() => navigateTo('/about')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">About Us</a>
-      <a on:click={() => navigateTo('/contact')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">Contact</a>
+      <a on:click={() => navigateTo('/contact')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">Contact Us</a>
       <a on:click={() => navigateTo('/services')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">Services</a>
 
       
@@ -65,7 +65,7 @@
   <div class="md:hidden flex flex-col items-center space-y-4 px-4 md:px-20 py-4 bg-gray-100">
     <a on:click={() => navigateTo('/')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">Home</a>
       <a on:click={() => navigateTo('/about')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">About Us</a>
-      <a on:click={() => navigateTo('/contact')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">Contact</a>
+      <a on:click={() => navigateTo('/contact')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">Contact Us</a>
       <a on:click={() => navigateTo('/services')} class="hover:text-yellow-600 cursor-pointer hover:border-b-2">Services</a>
 
   

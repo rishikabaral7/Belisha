@@ -1,4 +1,10 @@
-  
+  <script>
+    import {push} from 'svelte-spa-router';
+
+    function navigateTo(path){
+      push(path);
+    }
+  </script>
   <div class="w-full bg-bgFigma font-sans ">
     <!-- Navbar -->
     <!-- <Navbar /> -->
@@ -22,9 +28,12 @@
         </p>
   
         <button
-          class="-ml-12 -my-22 bg-goldFigma px-4 py-2 lg:-mt-2 lg:-ml-1 md:-ml-45 text-white text-sm lg:text-base rounded-lg hover:bg-goldFigma transition-all duration-300"
+          class="-ml-12 -my-22 bg-goldFigma px-4 py-2 lg:-mt-2 lg:-ml-1 md:-ml-45 text-white text-sm lg:text-base rounded-lg hover:bg-white hover:border-goldFigma hover:text-goldFigma transition-all duration-300 hover:cursor-pointer hover:border-1"
         >
-          Book Appointment
+        <a on:click={()=>navigateTo('/contact')} >
+
+          Contact Us
+        </a>
         </button>
       </div>
   

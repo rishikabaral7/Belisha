@@ -6,7 +6,8 @@
   import Tabs from "../components/Tabs.svelte";
   import TabsEyeLashes from "../components/services/TabsEyeLashes.svelte";
   import TabsBodyMassage from "../components/services/TabsBodyMassage.svelte";
-  let items = ['Hair Services', 'Nail Services', 'Hair Removal', 'Eyelash Services', 'Facial Treatments'];
+  import TabsFaical from "../components/services/TabsFaical.svelte";
+  let items = ['Hair Services', 'Nail Services', 'Hair Removal', 'Eyelash Services', 'Facial Treatments', 'Body Massage'];
   let activeItem = items[0]; // Set the first item as active by default
   const tabChange = (e) =>{
     activeItem = e.detail;
@@ -31,5 +32,8 @@
 {:else if activeItem === 'Eyelash Services'}
 <TabsEyeLashes/>
 {:else if activeItem === 'Facial Treatments'}
+<TabsFaical/>
+{:else if activeItem === 'Body Massage'}
 <TabsBodyMassage/>
+
 {/if}

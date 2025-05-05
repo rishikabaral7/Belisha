@@ -21,7 +21,7 @@
           <li><a href="/" class="hover:text-goldFigma">Home</a></li>
           <li><a href="/services" class="hover:text-goldFigma">Services</a></li>
           <li><a href="/about" class="hover:text-goldFigma">About Us</a></li>
-          <li><a href="/contact" class="hover:text-goldFigma">Contact</a></li>
+          <li><a href="/contact" class="hover:text-goldFigma">Contact Us</a></li>
         </ul>
     </div>
     

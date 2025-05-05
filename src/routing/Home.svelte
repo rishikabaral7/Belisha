@@ -1,4 +1,5 @@
 <script>
+  import { push } from "svelte-spa-router";
   import OurServices from "../components/OurServices.svelte";
   import HeroPage from "../components/HeroPage.svelte";
 
@@ -11,6 +12,10 @@
     { day: "FRIDAY", hours: "09:00–19:00" },
     { day: "SATURDAY", hours: "closed" },
   ];
+
+  function navigateTo(path){
+    push(path);
+  }
 </script>
 
 <!-- firstsection -->
@@ -37,10 +42,13 @@
       best.
     </p>
     <button
-      class="bg-goldFigma px-6 py-2 text-white text-sm md:text-base rounded-lg hover:bg-goldFigma transition-all duration-300"
-    >
-      About Us
-    </button>
+    class="-ml-12 -my-22 bg-goldFigma px-4 py-2 lg:-mt-2 lg:-ml-1 md:-ml-45 text-white text-sm lg:text-base rounded-lg hover:bg-white hover:border-goldFigma hover:text-goldFigma transition-all duration-300 hover:cursor-pointer hover:border-1"
+  >
+  <a on:click={()=>navigateTo('/about')} >
+
+    About Us
+  </a>
+  </button>
   </div>
 </div>
 

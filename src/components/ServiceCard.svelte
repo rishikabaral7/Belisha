@@ -1,7 +1,11 @@
 <script>
+  import { push } from 'svelte-spa-router';
   export let image = "";
   export let title = "";
   export let description = "";
+  function navigateTo(path) {
+    push(path);
+  }
 </script>
 
 <div class="bg-white shadow-md hover:shadow-xl transition-shadow duration-300 rounded-2xl overflow-hidden h-[400px] flex flex-col">
@@ -13,8 +17,13 @@
       <p class="text-paragraphFigma text-sm mb-4">{description}</p>
     </div>
     
-    <button class="w-full mt-auto bg-goldFigma hover:bg-yellow-600 text-white text-sm font-medium py-2 px-4 rounded-lg transition-colors duration-300 shadow-md">
-      Explore More
+    <button class="w-full mt-auto bg-goldFigma text-white text-sm font-medium py-2 px-4 rounded-lg transition-colors duration-300 shadow-md hover:cursor-pointer hover:border-1  hover:bg-white hover:border-goldFigma hover:text-goldFigma">
+      <a on:click={()=>navigateTo('/services')} >
+  
+        Explore More
+      </a>
+      
     </button>
+  
   </div>
 </div>
