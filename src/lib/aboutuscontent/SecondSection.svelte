@@ -7,7 +7,7 @@
 
        <div class="md:pt-12 lg:pt-16">
            <h1 class="text-3xl md:text-4xl lg:text-4xl  text-brownFigma font-bold">Hair & Beauty Specialist with Certification</h1>
-            <p class="text-paragraphFigma text-sm md:text-base py-6">
+            <p class="text-paragraphFigma text-sm font-medium md:text-base py-6">
                 A trained professional who provides expert hair cutting, styling, and beauty services such as hair treatments, makeup, and skincare. Certified to work with different hair types and beauty needs, ensuring clients look and feel their best.
             </p>
             <div class="flex lg:gap-20 items-center -mt-2 gap-10">

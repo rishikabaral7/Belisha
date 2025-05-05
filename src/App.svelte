@@ -6,30 +6,25 @@
   import Services from "./routing/Services.svelte";
   import Navbar from "./components/Navbar.svelte";
   import Footer from './components/Footer.svelte';
-  const routes={
+
+  const routes = {
     '/': Home,
     '/about': AboutUs,
     '/contact': Contact,
     '/services': Services
+  };
 
+  let NavbarOpen = false;
+
+  function toggleNavbar() {
+    NavbarOpen = !NavbarOpen;
   }
-let NavbarOpen = false;
-
-function toggleNavbar(){
-  NavbarOpen = !NavbarOpen;
-}
 </script>
 
-<!-- <div class="layout {NavbarOpen ? 'navbar-open' : 'navbar-closed'}">
-  {#if NavbarOpen} -->
-    <div class="bg-bgFigma">
-
-      <Navbar/>  
-    </div>
-  <!-- {/if} -->
-<main>
-  <Router {routes} />
-</main>
-<!-- </div> -->
-
-<Footer/>
+<div class="bg-bgFigma min-h-screen flex flex-col font-display">
+  <Navbar />
+  <main class="flex-grow">  
+    <Router {routes} />
+  </main>
+  <Footer />
+</div>

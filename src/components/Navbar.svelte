@@ -15,7 +15,7 @@
     }
   }
   </script>
-  <div>
+  <div class="font-display">
     <div class=" fixed top-0 left-0 w-full z-50 flex justify-center flex-row lg:space-x-12 lg:justify-center lg:items-center bg-blackFigma px-2 py-2 lg:px-40 gap-3">
   
       <div class="flex items-center space-x-2 text-softBeigeFigma text-sm hover:text-goldFigma cursor-pointer">

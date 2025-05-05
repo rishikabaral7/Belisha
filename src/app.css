@@ -1,15 +1,19 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Cal+Sans&display=swap');
 
 
 
-:root {
-  font-family: 'Roboto', sans-serif;
+
+body{
+  font-family: 'Cal Sans', sans-serif;
 }
 
 
 @theme {
-    --font-roboto: "Roboto", sans-serif; 
+    --font-display: "Cal Sans", sans-serif;
+    
+    
     --color-blackFigma: #0B0B0B;
     --color-brownFigma: #4E342E;
     --color-lightFigma: #FFFFF0;

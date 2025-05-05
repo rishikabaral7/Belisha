@@ -1,14 +1,14 @@
   
-  <div class="w-full bg-bgFigma family-roboto">
+  <div class="w-full bg-bgFigma font-sans ">
     <!-- Navbar -->
     <!-- <Navbar /> -->
   
     <!-- Hero Section -->
-    <div class="w-full flex flex-row items-center justify-center px-4 pb-14 h-68 md:px-12 lg:h-[600px] lg:gap-24 lg:px-40 lg:py-10 overflow-hidden">
+    <div class="w-full flex flex-row items-center justify-center px-4 pb-14 h-68 md:px-10 lg:h-[600px] lg:gap-24 lg:px-30 lg:py-10 overflow-hidden">
       
       <!-- Text Section -->
       <div class="flex-1 text-center mt-16 lg:text-left max-w-xs lg:max-w-450">
-        <h1 class=" text-2xl text-left md:text-3xl lg:text-6xl font-bold text-shadow-sm">
+        <h1 class=" text-2xl text-left md:text-3xl lg:text-6xl font-bold text-shadow-sm font-display">
           <span class="text-blackFigma block">
             Where <span class="text-goldFigma">Beauty</span>
           </span>
